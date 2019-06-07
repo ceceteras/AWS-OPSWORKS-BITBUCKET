@@ -17,6 +17,7 @@ Press the ENTER key to accept the default location. The ssh-keygen utility pro
 After you confirm the passphrase, the system generates the key pair.
 Your identification has been saved in /Users/myname/.ssh/id_rsa.
 Your public key has been saved in /Users/myname/.ssh/id_rsa.pub.
+
 The key fingerprint is:
 ae:89:72:0b:85:da:5a:f4:7c:1f:c2:43:fd:c6:44:38 myname@mymac.local
 The key's randomart image is:
@@ -31,6 +32,8 @@ The key's randomart image is:
 | o...o * o       |
 |.  oo.o .        |
 +-----------------+
+
+
 Your private key is saved to the id_rsa file in the .ssh directory
 
 2. Copy the public key to your bitbucket repository and paste it under access keys with this command  cat ~/ssh/id_rsa or pbcopy < ~/.ssh/id_rsa.pub
